@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCVS Student Portal</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="form-container">
+
+    <h1>CCVS</h1>
+
+    <p>College Complaint Verification System</p>
+
+    <form id="complaintForm">
+
+      <input 
+      type="text" 
+      id="title"
+      placeholder="Enter Complaint Title"
+      required>
+
+      <input 
+      type="text" 
+      id="department"
+      placeholder="Enter Department"
+      required>
+
+      <textarea 
+      id="description"
+      placeholder="Describe your complaint..."
+      required></textarea>
+
+      <button type="submit">
+        Submit Complaint
+      </button>
+
+    </form>
+
+    <a href="admin.html" class="admin-link">
+      Admin Login
+    </a>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
